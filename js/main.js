@@ -73,11 +73,11 @@ var boxes = [];
 // state (0 or 1)
 // id of checkbox
 // class name of stuff to show
-// array of id names of stuff to hide (confilcts)
+// array of id names of stuff to hide (conflicts)
 
 
-boxes.push(new Checker(1,"traditional","traditional",["persona"]));
-boxes.push(new Checker(0,"persona","persona",["traditional"]));
+// boxes.push(new Checker(1,"traditional","traditional",[]));
+// boxes.push(new Checker(0,"persona","persona",[]));
 
 
 
