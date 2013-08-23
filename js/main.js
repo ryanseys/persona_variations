@@ -65,7 +65,20 @@ function checkForConflicts(conflictsList) {
 
 var boxes = [];
 
-boxes.push(new Checker(1,"ic1","s1",["ic2"]));
+
+//boxes.push(new Checker(1,"ic1","s1",["ic2","ic3"]));
+// 
+
+//params are 
+// state (0 or 1)
+// id of checkbox
+// class name of stuff to show
+// array of id names of stuff to hide (confilcts)
+
+
+boxes.push(new Checker(1,"traditional","traditional",["persona"]));
+boxes.push(new Checker(0,"persona","persona",["traditional"]));
+
 
 
 console.log("!!!!");
